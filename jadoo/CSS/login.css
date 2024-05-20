@@ -1,0 +1,149 @@
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --bs-blue: #747DEF;
+    --bs-indigo: #6237FF;
+    --bs-purple: #A1B0FC;
+    --bs-pink: #D42DA3;
+    --bs-red: #DF6951;
+    --bs-orange: #DF6951;
+    --bs-yellow: #F1A501;
+    --bs-green: #79B93C;
+    --bs-teal: #006380;
+    --bs-cyan: #2fc4f1;
+    --bs-white: #FFFEFE;
+    --bs-gray: #F0F4F9;
+    --bs-gray-dark: #616161;
+    --bs-primary: #F1A501;
+    --bs-secondary: #5E6282;
+    --bs-success: #79B93C;
+    --bs-info: #006380;
+    --bs-warning: #F1A501;
+    --bs-danger: #DF6951;
+    --bs-light: #F0F4F9;
+    --bs-dark: #212832;
+    --bs-font-sans-serif: "Poppins", "Rubik", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/login_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    box-shadow: var(--bs-blue);
+}
+
+
+.form-box {
+    width: 380px;
+    height: 430px;
+    position: relative;
+    margin: 4% auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buttom-box {
+    width: 100px;
+    margin: 130px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ffffffa9;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #1d28f394, #53aef8c7);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.social-icon {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icon img {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+}
+
+.input-grp {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0; 
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #1d28f394, #53aef8c7);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+
+}
+
+span {
+    color: black;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.574);
+}
